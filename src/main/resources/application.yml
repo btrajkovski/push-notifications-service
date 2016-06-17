@@ -1,0 +1,33 @@
+spring:
+  application:
+    name: Push Notifications Service
+
+
+#  Database Config
+  datasource:
+    url: jdbc:mysql://localhost:3306/push-notifications?useUnicode=true&characterEncoding=UTF-8
+    username: push
+    password: push
+
+    max-idle: 50
+    suspect-timeout: 60
+    time-between-eviction-runs-millis: 30000
+
+    test-on-borrow: true
+    test-while-idle: true
+    validation-query: SELECT 1
+  jpa:
+    hibernate:
+      ddl-auto: update
+      naming-strategy: org.hibernate.cfg.ImprovedNamingStrategy
+    show-sql: true
+logging:
+  level:
+    org.springframework: INFO
+    org.springframework.security: INFO
+    org.springframework.social: INFO
+
+application:
+  host: http://localhost
+  port: 8000
+  url: ${application.host}:${application.port}/
