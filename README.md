@@ -7,14 +7,15 @@ Mobile push notifications made easy. Single service for multiple OS and devices.
 
 ## 2. Description
 Backend for push notifications service that works with APNS and GCM. 
-Frontend part is available here [push-notifications-frontend](https://github.com/btrajkovski/push-notifications-frontend)
+Frontend part is available here [push-notifications-frontend](https://github.com/btrajkovski/push-notifications-frontend).
+Final version soon
 
 ## 3. Features
 * Support for both Android and iOS devices from one place
 * Multiple applications for same user
 * Support for unlimited number of devices, push notifications and applications
 * Scheduled notifications
-* Public API for registering devices and seding notifications
+* Public API for registering devices and sending notifications
 * List all registered devices
 
 ## 4. How to run
