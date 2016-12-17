@@ -1,4 +1,7 @@
 # Push Notifications Service
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/fcdce6dab8964c078d86a638f02d0294)](https://www.codacy.com/app/leetz-spy/push-notifications-service?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=btrajkovski/push-notifications-service&amp;utm_campaign=badger)
+
 Mobile push notifications made easy. Single service for multiple OS and devices. 
 
 ## 1. Live version
